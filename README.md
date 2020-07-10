@@ -48,6 +48,7 @@ The display: block's default width is the size of the container (not just the co
 
 
 3. What are the 4 areas of the box model?
+
 Margin, Border, Padding, Content.
 
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
