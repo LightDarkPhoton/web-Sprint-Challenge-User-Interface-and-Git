@@ -149,18 +149,44 @@ footer nav a {
 
 .navbar {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
-    text-align: justify;
+    margin-top: 4%;
 }
 
 .nav-links {
     display: flex;
+    justify-content: space-around;
+    align-content: center;
+    width: 100%;
+
+    margin-top: 2%;
+}
+
+/* Working
+
+.navbar {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: justify;
+
+    margin-top: 4%;
+}
+.nav-links {
+    display: flex;
+
 }
 
 .nav-item {
     padding-left: 100px;
     padding-right: 50px;
+}
+*/
+
+.nav-item a{
+    color: black;
+    text-decoration: none;
 }
 
 .jumboImage {
@@ -244,11 +270,19 @@ footer nav a {
 
 .buttonInsideImage {
 
+    margin-top: 3%;
+    margin-right: 1%;
+    margin-bottom: 1%;
+
     border-color: black;
     background-color: white;
-
+    width: 80px;
 }
 
 section {
     margin: 3%;
+}
+
+.headerCaption {
+    margin-top: 4%
 }
