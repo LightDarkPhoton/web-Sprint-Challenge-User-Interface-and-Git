@@ -34,13 +34,30 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+There are semantic parts of HTML and non-semantic parts. The semantic parts are elements that come prepacked with meaning. Things like tables and sections have lots of properties already present with them. Like a LEGO set that has already been built.
+
+Whereas there are nonsemantic parts of HTML, where they're literally like empty shells. You have to define how they behave from scratch. Like a lego block not attached to anything.
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+
+Display: block takes up an entire line, so elements won't sit next to each other. Contains line breaks.
+
+You can set the height and width for display:block, but not display:inline.
+
+The display: block's default width is the size of the container (not just the contents))
+
 
 3. What are the 4 areas of the box model?
 
+Margin, Border, Padding, Content.
+
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
+The property works on the cross-axis, which is perpendicular to the main axis.
+
 5. Explain why git is valuable to a team of developers.
+
+Git allows programmers to make backups so they have a history of all the different versions of their project. They can also make branches so they can work on different aspects of the project in isolation. And in the event of a fatal bug or unexpected loss, one can always revert back to the version that previously worked.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
